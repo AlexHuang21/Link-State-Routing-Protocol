@@ -1,4 +1,5 @@
 # Link-State-Routing-Protocol
+Alex Huang
 
 ### Introduction <br>
 This project implements a Link-State Routing (LSR) protocol to demonstrate a distributed routing algorithm. Each router broadcasts its link-state information to the entire network and computes the least-cost paths using Dijkstra's algorithm. The protocol is designed to handle dynamic network conditions, including node failures and rejoining nodes.
@@ -33,11 +34,11 @@ python3 Lsr_Version_C.py A 5000 configA.txt
 Monitor Output: Each router will periodically output the least-cost paths to all other routers.
 
 ### Topics Covered <br>
--Network Protocol Design
--Shortest Path Algorithms (Dijkstra's Algorithm)
--UDP Socket Programming
--Concurrency and Multithreading
--Fault Tolerance and Failure Recovery
+- Network Protocol Design <br>
+- Shortest Path Algorithms (Dijkstra's Algorithm) <br>
+- UDP Socket Programming <br>
+- Concurrency and Multithreading <br>
+- Fault Tolerance and Failure Recovery <br>
 
 ### Conclusion <br>
 This project demonstrates the design and implementation of a robust network protocol, handling dynamic network conditions and applying advanced programming techniques. The implementation is thoroughly tested and showcases a comprehensive understanding of computer networks and distributed systems.
