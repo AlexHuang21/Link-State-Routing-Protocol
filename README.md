@@ -29,7 +29,7 @@ python3 Link_State_Routing.py [Router ID] [Port Number] [Config File]
 
 Example:
 
-python3 Link_State_Routing.py A 5000 config.txt
+python3 Link_State_Routing.py A 5000 Example_Config.txt
 
 Monitor Output: Each router will periodically output the least-cost paths to all other routers.
 
