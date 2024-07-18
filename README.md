@@ -22,14 +22,14 @@ This project implements a Link-State Routing (LSR) protocol to demonstrate a dis
 - **Node Rejoining:** Detects when a previously failed node reestablishes communication. Updates the topology and includes the rejoined node in the shortest path computation. <br>
 
 ### How to Run
-Prepare Configuration Files: Create configuration files for each router specifying neighbors and link costs.
+Prepare Configuration Files: Create configuration files for each router specifying neighbors and link costs, or use the example ones I've provided.
 Start Routers: Open multiple terminal windows and start the routing program for each router using the command:
 
 python3 Link_State_Routing.py [Router ID] [Port Number] [Config File]
 
 Example:
 
-python3 Link_State_Routing.py A 5000 Example_Config.txt
+python3 Link_State_Routing.py A 5000 Example_Config_1.txt
 
 Monitor Output: Each router will periodically output the least-cost paths to all other routers.
 
