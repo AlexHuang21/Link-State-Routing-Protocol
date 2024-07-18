@@ -1,16 +1,16 @@
 # Link-State-Routing-Protocol
 
-### Introduction <br>
+### Introduction: <br>
 This project implements a Link-State Routing (LSR) protocol to demonstrate a distributed routing algorithm. Each router broadcasts its link-state information to the entire network and computes the least-cost paths using Dijkstra's algorithm. The protocol is designed to handle dynamic network conditions, including node failures and rejoining nodes.
 
-**Features**
-Link-State Packets (LSPs): Each router broadcasts its LSP containing its ID, neighbors, and link costs.
-Sequence Numbers and Timestamps: Prevent processing of outdated LSPs with included sequence numbers and timestamps.
-Periodic Updates: Routers periodically broadcast LSPs to ensure all nodes have up-to-date topology information.
-Dijkstra's Algorithm: Computes the least-cost paths from each router to all other nodes at regular intervals.
-Failure Detection: Uses heartbeats to detect node failures and update the topology accordingly.
-Node Rejoining: Handles scenarios where previously failed nodes rejoin the network.
-Multithreading: Utilizes multiple threads to handle sending, receiving, and processing LSPs concurrently.
+### Features
+Link-State Packets (LSPs): Each router broadcasts its LSP containing its ID, neighbors, and link costs. <br>
+Sequence Numbers and Timestamps: Prevent processing of outdated LSPs with included sequence numbers and timestamps. <br>
+Periodic Updates: Routers periodically broadcast LSPs to ensure all nodes have up-to-date topology information. <br>
+Dijkstra's Algorithm: Computes the least-cost paths from each router to all other nodes at regular intervals. <br>
+Failure Detection: Uses heartbeats to detect node failures and update the topology accordingly. <br>
+Node Rejoining: Handles scenarios where previously failed nodes rejoin the network. <br>
+Multithreading: Utilizes multiple threads to handle sending, receiving, and processing LSPs concurrently. <br>
 
 **Implementation Details**
 Router Initialization: Reads the configuration file to get the router ID, port number, and neighbor information. Initializes the link-state database and sequence number.
