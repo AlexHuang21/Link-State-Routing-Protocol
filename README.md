@@ -25,11 +25,11 @@ This project implements a Link-State Routing (LSR) protocol to demonstrate a dis
 Prepare Configuration Files: Create configuration files for each router specifying neighbors and link costs.
 Start Routers: Open multiple terminal windows and start the routing program for each router using the command:
 
-python3 Lsr_Version_C.py [Router ID] [Port Number] [Config File]
+python3 Link_State_Routing.py [Router ID] [Port Number] [Config File]
 
 Example:
 
-python3 Lsr_Version_C.py A 5000 configA.txt
+python3 Link_State_Routing.py A 5000 config.txt
 
 Monitor Output: Each router will periodically output the least-cost paths to all other routers.
 
