@@ -1,6 +1,6 @@
 # Link-State-Routing-Protocol
 
-**Introduction**__
+### Introduction <br>
 This project implements a Link-State Routing (LSR) protocol to demonstrate a distributed routing algorithm. Each router broadcasts its link-state information to the entire network and computes the least-cost paths using Dijkstra's algorithm. The protocol is designed to handle dynamic network conditions, including node failures and rejoining nodes.
 
 **Features**
@@ -20,7 +20,7 @@ Running Dijkstra's Algorithm: Computes the shortest paths from the router to all
 Handling Node Failures: Uses periodic heartbeats to detect when a neighbor node has failed. Updates the topology and recomputes the shortest paths excluding the failed nodes.
 Node Rejoining: Detects when a previously failed node reestablishes communication. Updates the topology and includes the rejoined node in the shortest path computation.
 
-**How to Run**
+**How to Run
 Prepare Configuration Files: Create configuration files for each router specifying neighbors and link costs.
 Start Routers: Open multiple terminal windows and start the routing program for each router using the command:
 # python3 Lsr_Version_C.py [Router ID] [Port Number] [Config File]
